@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<script>
+    var object = Object.create ({x: 20, y: 10});  // пробуем передать объект ? какого-то черта в консоль не выводит
+    console.log(object);
+    object.x = 40;
+    console.log(object);
+    console.log(object.hasOwnProperty("x"));
+    console.log(object.x);
+</script>
+
+</body>
+</html>
